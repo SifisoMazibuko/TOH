@@ -1,0 +1,25 @@
+<div  style="margin-top:-22em;text-align:center" *ngIf="hero">
+    <h2>{{hero.name}} details!</h2>
+    <div  class="col-sm-offset-12">
+      <label>Id: </label>
+      <span>{{hero.id}}</span>
+    </div>
+    <div class="form-horizonatal">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Name: </label>
+            <input [(ngModel)]="hero.name" placeholder="name"/>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Surname: </label>
+            <input [(ngModel)]="hero.surname" placeholder="surname"/>    
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Superpower: </label>
+            <input [(ngModel)]="hero.superpower" placeholder="superpower"/>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Country: </label>
+            <input [(ngModel)]="hero.country" placeholder="country"/> 
+        </div>
+    </div>
+  </div>
