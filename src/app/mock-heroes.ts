@@ -10,7 +10,9 @@ export const HEROES: Hero[] = [
   { id: 17, name: 'Dynama', surname: 'Motuber', superpower: 'Power Replication', country: 'Lagos' },
   { id: 18, name: 'Dr IQ', surname: 'Wellow', superpower: 'Power Absorption', country: 'Nigera' },
   { id: 19, name: 'Magma', surname: 'Kalasnge', superpower: 'Power Detection', country: 'Europe' },
-  { id: 20, name: 'Tornado', surname: 'Oppersand', superpower: 'Power Affinity', country: 'Chile' }
+  { id: 20, name: 'Tornado', surname: 'Oppersand', superpower: 'Power Affinity', country: 'Chile' },
+  { id: 21, name: 'Freddy', surname: 'Gregor', superpower: 'Power Kill', country: 'Australia' },
+  { id: 22, name: 'Jason', surname: 'Feroh', superpower: 'Power Disappear', country: 'France' }
 ];
 
 
