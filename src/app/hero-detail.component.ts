@@ -9,6 +9,6 @@ import { Location } from '@angular/common';
 export class HeroDetailComponent {
   @Input() hero: Hero;
 
-  goBack(): void {
-  }
+  // goBack(): void {
+  // }
 }

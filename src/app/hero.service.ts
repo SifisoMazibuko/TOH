@@ -2,10 +2,13 @@ import { Injectable } from '@angular/core';
 
 import { Hero } from './hero';
 import { HEROES } from './mock-heroes';
+import { Logger } from './logger.service';
 
 @Injectable()
 export class HeroService {
+  constructor(private logger: Logger){}
   getHeroes(): Promise<Hero[]> {
+    this.logger.log('Getting list of heroes');
     return Promise.resolve(HEROES);
   }
 
